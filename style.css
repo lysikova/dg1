@@ -1,0 +1,577 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+    min-width: 980; 
+    max-width: 1920px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+.pic {
+	max-width: 100%;
+	height: auto;
+	position: relative;
+}
+
+.row {
+	width: 100%;
+	display: block;
+	position: relative;
+	height: 970px;
+	width: 100%;
+	background-position: center center;
+}
+
+.row1 {
+	background-image: url(images/bg_01.jpg);
+}
+
+.row2 {
+	background-image: url(images/bg_02.jpg);
+	height: 1053px;
+}
+
+.row3 {
+	background-image: url(images/bg_03.jpg);
+	height: 647px;
+}
+
+.separator {
+	position: absolute;
+	width: 980px;
+	height: 40px;
+	top: -20px;
+	left: 450px;
+}
+
+.title-3 img {
+	position: absolute;
+	width: 560px;
+	height: 64px;
+	left: -480px;
+	top: 480px;
+}
+
+.text-3 {
+	position: absolute;
+	font-size: 22px;
+	font-family: "Georgia";
+	color: rgb(245, 238, 215);
+	line-height: 1.091;
+	text-align: center;
+	position: absolute;
+	left: 480px;
+	top: 540px;
+	height: 16.323px;
+	z-index: 68;
+}
+
+.row4 {
+	background-image: url(images/bg_04.jpg);
+	height: 647px;
+}
+
+.title-4 img {
+	position: absolute;
+	width: 950px;
+	height: 64px;
+	left: -565px;
+	top: 483px;
+}
+
+.text-4 {
+	position: absolute;
+	font-size: 22px;
+	font-family: "Georgia";
+	color: rgb(245, 238, 215);
+	line-height: 1.091;
+	text-align: center;
+	position: absolute;
+	left: 492px;
+	top: 540px;
+	height: 16.323px;
+	z-index: 68;
+	font-weight: lighter;
+}
+
+.row5 {
+	background-image: url(images/bg_05.jpg);
+	height: 647px;
+}
+
+.title-5 img {
+	position: absolute;
+	width: 750px;
+	height: 64px;
+	left: -580px;
+	top: 483px;
+}
+
+.text-5 {
+	position: absolute;
+	font-size: 22px;
+	font-family: "Georgia";
+	color: rgb(245, 238, 215);
+	line-height: 1.091;
+	text-align: center;
+	position: absolute;
+	left: 498px;
+	top: 542px;
+	height: 16.323px;
+	z-index: 68;
+	font-weight: lighter;
+}
+
+.row6 {
+	background-image: url(images/bg_06.jpg);
+	height: 646px;
+}
+
+.title-6 img {
+	position: absolute;
+	width: 595px;
+	height: 64px;
+	left: -260px;
+	top: 483px;
+}
+
+.text-6 {
+	position: absolute;
+	font-size: 22px;
+	font-family: "Georgia";
+	color: rgb(245, 238, 215);
+	line-height: 1.091;
+	text-align: center;
+	position: absolute;
+	left: 735px;
+	top: 542px;
+	height: 16.323px;
+	z-index: 68;
+	font-weight: lighter;
+}
+
+.separator-2 {
+	position: absolute;
+	width: 980px;
+	height: 40px;
+	bottom: -20px;
+	left: 450px;
+}
+
+.button-spielen-3 {
+	background: url(images/button_playgreen_normal.png);
+	position: absolute;
+	bottom: -70px;
+	left: 770px;
+	width: 353px;
+	height: 145px;
+	cursor: pointer;
+	z-index: 50;
+}
+
+.button-spielen-3:hover {
+    background: url(images/button_playgreen_hover.png);
+}
+
+.button-spielen-3:active {
+    background: url(images/button_playgreen_active.png);
+}
+
+.row7 {
+	background-image: url(images/bg_07.jpg);
+	height: 1195px;
+}
+
+.title-7 img {
+	position: absolute;
+	width: 595px;
+	height: 64px;
+	left: -370px;
+	top: 80px;
+}
+
+.text-7 {
+	position: absolute;
+	text-align: center;
+	position: absolute;
+	left: 475px;
+	top: 200px;
+	height: 16.323px;
+	z-index: 68;
+	text-align: justify;
+	font-size: 24px;
+	font-family: "Georgia";
+	color: rgb(245, 238, 215);
+	line-height: 1.25;
+	font-weight: bold;
+}
+
+.video img {
+	position: absolute;
+	width: 480px;
+	height: 320px;
+	top: 200px;
+	right: 450px;
+}
+
+.hero-1 {
+	position: absolute;
+	width: 860px;
+	height: 330px;
+	top: 455px;
+	left: 520px;
+}
+
+.hero-2 {
+	position: absolute;
+	width: 860px;
+	height: 330px;
+	top: 625px;
+	left: 550px;
+}
+
+.hero-3 {
+	position: absolute;
+	width: 860px;
+	height: 330px;
+	top: 790px;
+	left: 525px;
+}
+
+.cite-1 {
+	font-size: 18px;
+	font-family: "Georgia";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	line-height: 1.2;
+	text-align: left;
+	position: absolute;
+	left: 780px;
+	top: 638px;
+	z-index: 23;
+}
+
+.cite-2 {
+	font-size: 18px;
+	font-family: "Georgia";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	line-height: 1.2;
+	text-align: left;
+	position: absolute;
+	left: 592px;
+	top: 808px;
+	z-index: 23;
+}
+
+.cite-3 {
+	font-size: 18px;
+	font-family: "Georgia";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	line-height: 1.2;
+	text-align: left;
+	position: absolute;
+	left: 782px;
+	top: 973px;
+	z-index: 23;
+}
+
+.separator-3 {
+	position: absolute;
+	width: 980px;
+	height: 40px;
+	bottom: -20px;
+	left: 450px;
+}
+
+.button-spielen-4 {
+	background: url(images/button_Tamethedragon_normal.png);
+	position: absolute;
+	bottom: -70px;
+	left: 770px;
+	width: 353px;
+	height: 145px;
+	cursor: pointer;
+	z-index: 50;
+}
+
+.button-spielen-4:hover {
+    background: url(images/button_Tamethedragon_hover.png);
+}
+
+.button-spielen-4:active {
+    background: url(images/button_Tamethedragon_active.png);
+}
+
+.row8 {
+	background-image: url(images/bg_08.jpg);
+	height: 223px;
+}
+
+.text-8 {
+	font-size: 14px;
+	font-family: "Georgia";
+	color: rgb(255, 254, 254);
+	line-height: 1.286;
+	text-align: center; 
+	position: absolute;
+	left: 477px;
+	top: 75px;
+	height: 25.372px;
+	z-index: 3;
+}
+
+.xp-logo-2 img{
+	width: 105px;
+	height: 55px;
+	position: absolute;
+	left: 895px;
+	top: 120px;
+}
+
+.bottom-text, .xp-logo, .button-spielen, .text {
+	position: absolute;
+}
+
+.social_login  {
+	border: none;
+	outline: none;
+	background: url(images/button_fb_normal.png); 
+	width: 353px;
+	height: 145px;
+	display: block;
+	position: absolute;
+	top: 290px;
+    left: 1023px;
+    cursor: pointer;
+}
+
+.social_login:hover {
+	outline: none;
+    background: url(images/button_fb_hover.png);
+}
+
+.social_login:active {
+	outline: none;
+    background: url(images/button_fb_active.png);
+}
+
+.button-spielen{
+	border: none;
+	background: url(images/button_play_normal.png); 
+	width: 353px;
+	height: 145px;
+	display: block;
+	position: absolute;
+	top: 570px;
+    left: 1023px;
+    cursor: pointer;
+}
+
+.button-spielen:hover {
+    background: url(images/button_play_hover.png);
+}
+
+.button-spielen:active {
+    background: url(images/button_play_active.png);
+}
+
+.logon {
+	font-size: 18px;
+	font-family: "Georgia";
+	color: rgb(245, 238, 215);
+	line-height: 1.222;
+	text-align: center;
+	position: absolute;
+	left: 1128px;
+	top: 282px;
+	font-weight: lighter;
+	height: 6.813px;
+	z-index: 197;
+}
+
+.orenter {
+	font-size: 18px;
+	font-family: "Georgia";
+	color: rgb(245, 238, 215);
+	line-height: 2.055;
+	text-align: center;
+	position: absolute;
+	left: 1135px;
+	top: 414px;
+	height: 5.407px;
+	z-index: 196;
+}
+
+input[type="text"] {
+    border: 1px solid black;
+    outline: none;
+	position: absolute;
+	top: 460px;
+	left: 1048px;
+	background-image: url(images/e-mail_idle.png);
+	width: 305px;
+	height: 49px;
+	font-size: 20px;
+	text-align: center;
+	font-size: 18px;
+	font-family: "Georgia";
+	color: rgb(104, 115, 120);
+	line-height: 1.582;
+}
+
+input[type="text"]:hover {
+    border: 1px solid black;
+    outline: none;
+	position: absolute;
+	top: 460px;
+	left: 1048px;
+	background-image: url(images/e-mail_hover.png);
+	width: 305px;
+	height: 49px;
+	font-size: 20px;
+	text-align: center;
+	font-size: 18px;
+	font-family: "Georgia";
+	color: rgb(104, 115, 120);
+	line-height: 1.582;
+}
+
+.password {
+	font-size: 18px;
+	font-family: "Georgia";
+	color: rgb(245, 238, 215);
+	line-height: 1.222;
+	text-align: center;
+	position: absolute;
+	left: 1048px;
+	top: 525px;
+	height: 15.359px;
+	z-index: 194;
+}
+
+.accept {
+	font-size: 13px;
+	font-family: "Georgia";
+	color: rgb(245, 238, 215);
+	line-height: 1.385;
+	text-align: center;
+	position: absolute;
+	left: 1038px;
+	top: 715px;
+	height: 24.372px;
+	z-index: 185;
+	font-weight: lighter;
+}
+
+
+
+.xp-logo img{
+	width: 105px;
+	height: 55px;
+	position: absolute;
+	left: 1150px;
+	top: 755px;
+}
+
+p {
+	position: absolute;
+	top: 82px;
+	font-size: 24px;
+	font-family: "Georgia";
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	line-height: 1.45;
+	text-align: left;
+	position: absolute;
+	left: 470px;
+	width: 611px;
+	height: 203px;
+}
+
+.title {
+	position: absolute;
+	top: 0%;
+	left: 1023px;
+}
+
+.title-1 {
+	left: 1023px;
+}
+
+.title-2 {
+	left: 448px;
+	top: 20px;
+}
+
+.more {
+	position: absolute;
+	width: 600px;
+	height: 107px;
+	left: 448px;
+	top: 398px;
+}
+
+.list {
+	font-size: 24px;
+	font-family: "Georgia";
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	line-height: 1.25;
+	text-align: left;
+	position: absolute;
+	left: 445px;
+	top: 528px;
+	width: 644px;
+	height: 78px;
+	z-index: 160;
+}
+
+.button-spielen-2 {
+	background: url(images/button_playgreen_normal.png);
+	position: absolute;
+	bottom: 50px;
+	left: 780px;
+	width: 353px;
+	height: 145px;
+	cursor: pointer;
+}
+
+.button-spielen-2:hover {
+    background: url(images/button_playgreen_hover.png);
+}
+
+.button-spielen-2:active {
+    background: url(images/button_playgreen_active.png);
+}
+
+.label_text label {
+	width: 160px;
+	height: auto;
+	background-color: black;
+	border: 1px solid black;
+	border-radius: 3px;
+	position: absolute;
+	right: 380px;
+	top: 465px;
+    display: table-cell;
+    color: #ffd865;
+    text-align: center;
+	vertical-align: middle;
+      vertical-align: middle;
+      font-size: 14px;
+      padding: 10px;}
+      .main .label_text label.error {
+        color: #ffd865; }
+      .main .label_text label.badchecked {
+        color: #dc2411; }
+      .main .label_text label.checked {
+        color: #0ca331; }
+
